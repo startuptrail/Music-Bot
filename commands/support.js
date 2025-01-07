@@ -9,9 +9,9 @@ module.exports = {
     try {
 
       const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-      const githubLink = "https://github.com/GlaceYT";
-      const replitLink = "https://replit.com/@GlaceYT";
-      const youtubeLink = "https://www.youtube.com/@GlaceYT";
+      const githubLink = "https://github.com/startuptrail";
+      const replitLink = "https://replit.com/@Startup-Gaming";
+      const youtubeLink = "https://www.youtube.com/@StartupGamingTamil";
         const embed = new EmbedBuilder()
             .setColor('#b300ff')
             .setAuthor({
