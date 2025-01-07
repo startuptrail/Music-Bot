@@ -20,7 +20,7 @@ module.exports = {
         name: "Koi Node V4",
         host: "lavav4.prplmoe.me",
         port: 1118,
-        password: "prplmoe.me,
+        password: "prplmoe.me",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
