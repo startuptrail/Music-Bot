@@ -17,10 +17,10 @@ module.exports = {
 
   nodes: [
     {
-        name: "Koi Node V4",
-        host: "lavav4.prplmoe.me",
-        port: 1118,
-        password: "prplmoe.me",
+        name: "INZEWORLD.COM (DE)",
+        host: "lava.inzeworld.com",
+        port: 3128,
+        password: "saher.inzeworld.com",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
