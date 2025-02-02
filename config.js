@@ -15,14 +15,18 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "Koi Node V4",
-      password: "prplmoe.me",
-      host: "lavav4.prplmoe.me",
-      port: 1118,
-      secure: false
+        name: "INZEWORLD.COM (DE)",
+        host: "lava.inzeworld.com",
+        port: 3128,
+        password: "saher.inzeworld.com",
+        reconnectTimeout: 5000,
+        reconnectTries: Infinity,
+        secure: false
     },
     {
       name: "ChalresNaig Node",
+      host: "lavahatry4.techbyte.host",
+      port: 3000,
       password: "NAIGLAVA-dash.techbyte.host",
       host: "lavahatry4.techbyte.host",
       port: 3000,
