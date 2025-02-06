@@ -4,7 +4,7 @@ module.exports = {
   TOKEN: "MTMyNTg3NDE1NzY5ODgxNDEzMw.GO3hWs.Kh9QLJfrf8dFEaV5VMfG1pzWmVpE-yM7opQn80",
   language: "en",
   ownerID: ["1234512256344002650", ""], 
-  mongodbUri : "",
+  mongodbUri : "mongodb+srv://pranav:pranavffgame@music-bot.ovgmt.mongodb.net/?retryWrites=true&w=majority",
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
   embedColor: "#1db954",
