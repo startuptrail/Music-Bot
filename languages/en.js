@@ -1,5 +1,5 @@
 module.exports = {
-    footer: "Music Bot Made by Pranav | Spare Music v1.2",
+    footer: "developed by Pranav | Spare Music v1.2",
     ping: {
       description: "Check the bot latency",
       response: "Pinging...",
@@ -8,7 +8,7 @@ module.exports = {
         responseTime: "- Bot Response Time : **{latency}ms**",
         websocketPing: "- WebSocket Ping : **{ping}ms**",
         uptime: "- Uptime : **{uptime}**",
-        footer: "Music Bot Made by Pranav | Spare Music v1.2"
+        footer: "developed by Pranav | Spare Music v1.2"
       }
     },
     addsong: {
