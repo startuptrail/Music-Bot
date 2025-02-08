@@ -98,16 +98,3 @@ app.listen(port, () => {
     console.log(`${colors.cyan}[ TIME ]${colors.reset} ${colors.gray}${new Date().toISOString().replace('T', ' ').split('.')[0]}${colors.reset}`);
     console.log(`${colors.cyan}[ USER ]${colors.reset} ${colors.yellow}GlaceYT${colors.reset}`);
 });
-
-const express = require("express");
-const app = express();
-const port = 3000;
-app.get('/', (req, res) => {
-    const imagePath = path.join(__dirname, 'index.html');
-    res.sendFile(imagePath);
-});
-app.listen(port, () => {
-    console.log(`🔗 Listening to Spare Cloud : http://localhost:${port}`);
-});
-
-printWatermark();
