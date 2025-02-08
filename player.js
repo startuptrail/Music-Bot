@@ -30,7 +30,7 @@ async function sendMessageWithPermissionsCheck(channel, embed, attachment, actio
         console.error("Error sending message:", error.message);
         const errorEmbed = new EmbedBuilder()
             .setColor('#FF0000')
-            .setDescription("⚠️ **Unable to send message. Check bot permissions.**");
+            .setDescription("⚠️  **Unable to send message. Check bot permissions.**");
         await channel.send({ embeds: [errorEmbed] });
     }
 }
@@ -99,7 +99,7 @@ function initializePlayer(client) {
                 iconURL: musicIcons.playerIcon,
                 url: config.SupportServer
             })
-            .setFooter({ text: `Developed by SSRR | Prime Music v1.2`, iconURL: musicIcons.heartIcon })
+            .setFooter({ text: `Developed by Pranav | Spare Music v1.2`, iconURL: musicIcons.heartIcon })
             .setTimestamp()
             .setDescription(  
                 `- **Title:** [${track.info.title}](${track.info.uri})\n` +
@@ -126,7 +126,7 @@ function initializePlayer(client) {
             console.error("Error creating or sending music card:", error.message);
             const errorEmbed = new EmbedBuilder()
                 .setColor('#FF0000')
-                .setDescription("⚠️ **Unable to load track card. Continuing playback...**");
+                .setDescription("⚠️  **Unable to load track card. Continuing playback...**");
             await channel.send({ embeds: [errorEmbed] });
         }
     });
@@ -156,17 +156,17 @@ function initializePlayer(client) {
     
                 if (!nextTrack) {
                     player.destroy();
-                    await channel.send("⚠️ **No more tracks to autoplay. Disconnecting...**");
+                    await channel.send("⚠️  **No more tracks to autoplay. Disconnecting...**");
                 }
             } else {
                 console.log(`Autoplay is disabled for guild: ${guildId}`);
                 player.destroy();
-                await channel.send("🎶 **Queue has ended. Autoplay is disabled.**");
+                await channel.send("🎧  **Queue has ended. Autoplay is disabled.**");
             }
         } catch (error) {
             console.error("Error handling autoplay:", error);
             player.destroy();
-            await channel.send("👾**Queue Empty! Disconnecting...**");
+            await channel.send("🤖  **Queue Empty! Disconnecting the Bot!...**");
         }
     });
     
