@@ -1,5 +1,5 @@
 # Music Bot
-Music BOT MADE BY Pranav.
+Music Bot MADE BY Pranav.
 
 ![Animated Background](https://imgur.com/msvol4d.gif)
 
