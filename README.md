@@ -1,5 +1,5 @@
 # Music Bot
-LAVALINK BOT MADE BY Pranav.
+Music BOT MADE BY Pranav.
 
 ![Animated Background](https://imgur.com/msvol4d.gif)
 
