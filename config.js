@@ -1,7 +1,7 @@
 
 
 module.exports = {
-  TOKEN: "MTM0MjUxNDEyNDUxMjI5NzA4MQ.G7MgDH.NMccCLUlh8gKL0LdScPTl4RrnPQ939nspg0ngI",
+  TOKEN: "MTM0MjUxNDEyNDUxMjI5NzA4MQ.GmrIol.ImFbG0HwbGV52gzlX66i4I1Yu1yMI_uRsfCRQI",
   language: "en",
   ownerID: ["1234512256344002650", ""], 
   mongodbUri : "mongodb+srv://pranav:pranavffgame@music-bot.ovgmt.mongodb.net/?retryWrites=true&w=majority",
@@ -10,7 +10,7 @@ module.exports = {
   embedColor: "#1db954",
   activityName: "Music", 
   activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
-  SupportServer: "https://discord.gg/e76xPAFUzp",
+  SupportServer: "https://discord.gg/xQF9f9yUEM",
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
